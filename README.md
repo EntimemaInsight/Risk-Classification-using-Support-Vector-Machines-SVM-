@@ -25,34 +25,36 @@ The main objectives of this project are as follows:
 # Getting Started
 To get started with this project, follow these steps:
 
-- Clone the repository to your local machine.
-- Ensure you have the necessary libraries and dependencies installed. You can refer to the list of required libraries in the code.
-Load the dataset into the project, as shown in the code.
-Explore the data and run the data preparation steps.
-Initialize and evaluate the SVM models for credit card risk classification.
-Exploratory Data Analysis (EDA)
-Load the raw data.
-Examine feature names and data types.
-Split the data into numerical and categorical features.
-Display statistical information about the dataset.
-Check for unique and missing values.
-Explore target variable distributions.
-Visualize numerical features' distributions.
-Create correlation heatmaps to analyze feature relationships.
-Data Preparation
-Split the data into training and testing sets.
-Scale the features using Standard Scaler and MinMax Scaler.
-Convert the categorical target variable into numerical values.
-Model Initialization and Performance Evaluation
-Initialize Support Vector Machine (SVM) models.
-Deploy SVM models using different scalers (Standard Scaler and MinMax Scaler).
-Evaluate model performance with confusion matrices and classification reports.
-Hyperparameter Tuning
-Tune hyperparameters for SVM models using GridSearchCV.
-Choose the best kernel and optimal C parameter based on cross-validation of the training data.
-Results
-Summarize the results of SVM models with different scalers.
-Provide insights into model performance and the chosen hyperparameters.
-Conclusion
-Summarize the project's findings and the effectiveness of SVMs in credit card risk classification.
-Discuss potential areas for further improvement or research.
+1. Clone the repository to your local machine.
+2. Ensure you have the necessary libraries and dependencies installed. You can refer to the list of required libraries in the code.
+3. Load the dataset into the project, as shown in the code.
+4. Explore the data and run the data preparation steps.
+
+# Exploratory Data Analysis (EDA)
+- Loading the raw data.
+- Examining feature names and data types.
+- Splitting the data into numerical and categorical features.
+- Displaying statistical information about the dataset.
+- Checking for unique and missing values.
+- Exploring target variable distributions.
+- Visualizing numerical features' distributions.
+- Creating correlation heatmaps to analyze feature relationships.
+
+# Data Preparation
+- Splitting the data into training and testing sets.
+- Scaling the features using Standard Scaler and MinMax Scaler.
+- Converting the categorical target variable into numerical values.
+
+# Model Initialization and Performance Evaluation
+- Initializing Support Vector Machine (SVM) models.
+- Deploying SVM models using different scalers (Standard Scaler and MinMax Scaler).
+- Evaluating model performance with confusion matrices and classification reports.
+
+# Hyperparameter Tuning
+- Tuning hyperparameters for SVM models using GridSearchCV.
+- Choosing the best kernel and optimal C parameter based on cross-validation of the training data.
+
+# Credits
+This project was implemented by Aleksandar Dimitrov and is licensed under the MIT License. If you have any questions or comments, please feel free to contact me at alexi.zein@gmail.com.
+
+
