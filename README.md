@@ -22,7 +22,7 @@ The main objectives of this project are as follows:
 3. **Contributing to the Field:** Contribute to the fields of machine learning and data analysis by providing new insights and solutions for credit card risk assessment.
 4. **Learning and Development:** Enhance the team's skills and competencies in data and machine learning through this project.
 
-# Getting Started
+## Getting Started
 To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine.
@@ -30,7 +30,7 @@ To get started with this project, follow these steps:
 3. Load the dataset into the project, as shown in the code.
 4. Explore the data and run the data preparation steps.
 
-# Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 - Loading the raw data.
 - Examining feature names and data types.
 - Splitting the data into numerical and categorical features.
@@ -40,21 +40,21 @@ To get started with this project, follow these steps:
 - Visualizing numerical features' distributions.
 - Creating correlation heatmaps to analyze feature relationships.
 
-# Data Preparation
+## Data Preparation
 - Splitting the data into training and testing sets.
 - Scaling the features using Standard Scaler and MinMax Scaler.
 - Converting the categorical target variable into numerical values.
 
-# Model Initialization and Performance Evaluation
+## Model Initialization and Performance Evaluation
 - Initializing Support Vector Machine (SVM) models.
 - Deploying SVM models using different scalers (Standard Scaler and MinMax Scaler).
 - Evaluating model performance with confusion matrices and classification reports.
 
-# Hyperparameter Tuning
+## Hyperparameter Tuning
 - Tuning hyperparameters for SVM models using GridSearchCV.
 - Choosing the best kernel and optimal C parameter based on cross-validation of the training data.
 
-# Credits
+## Credits
 This project was implemented by Aleksandar Dimitrov and is licensed under the MIT License. If you have any questions or comments, please feel free to contact me at alexi.zein@gmail.com.
 
 
